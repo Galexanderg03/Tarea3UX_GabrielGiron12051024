@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+
+.todo-app {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.todo-app h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.todo-app input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.todo-app button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.todo-app ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-app li {
+  margin-bottom: 5px;
+}
+
+.todo-app .completed {
+  text-decoration: line-through;
+}
